@@ -1,33 +1,12 @@
-import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import axios from "axios";
 import pdf from "../../Assets/rashadul_islam.pdf";
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(0);
-  const [hackerrank, upadteHackerank] = useState(0);
-  const [sem, upadateSem] = useState(0);
-  const [cgpa, upadteCgpa] = useState(0);
-
-  useEffect(() => {
-    axios
-      .get(uri)
-      .then((res) => {
-        upadteSpojRank(res.data.message[0].spojRank);
-        upadteHackerank(res.data.message[1].hackerrank);
-        upadteCgpa(res.data.message[2].cgpa);
-        upadateSem(res.data.message[3].sem);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
 
   return (
     <Container fluid className="resume-section">
@@ -40,54 +19,57 @@ function Resume() {
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
+            <h3 className="resume-title">Skills</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="Full Stack Web Developer"
+              date="I have following skills"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Expertise: HTML5, CSS3, Bootstrap, JavaScript, ES6, React JS, React Router, Material UI.",
+                "Comfortable: Node JS (Express), MongoDB, Firebase.",
+                "Intermediate: C, C++, C#, JAVA.",
+                "Familiar: Redux, SASS, React- Native, Typescript.",
+                "Tools: VsCode, NetBeans, Code Blocks, Netlify, GitHub, Heroku, Chrome dev-tool."
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
+            <h3 className="resume-title">Professional Training</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Complete web development with Jhankar Mahbub [January 2021-present]"
               content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Learning core concept of web application and modern javascript framework.",
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="Industrial Training at Mistri Solutions [January 2021-present]"
               content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                "Learning how the application is build, maintenance, deploy and handover to client professionally.",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="International University of Business Agriculture and Technology [Uttara, Dhaka] "
+              date="2017 - Present"
+              content={[`CGPA: 3.83 / 4.00`]}
             />
             <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
-              date="2015 - 2017"
-              content={["Precentage: 88%"]}
+              title="12TH BOARD [Kurigram Govt. College, Kurigram]"
+              date="2015 - 2016"
+              content={["GPA: 4.58 / 5.00"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
-              content={["Precentage: 86%"]}
+              title="10TH BOARD [Kurigram Govt. School, Kurigram] "
+              date="2014"
+              content={["GPA: 5.00 / 5.00"]}
             />
-            <h3 className="resume-title">Ranks and Achivements</h3>
+            <h3 className="resume-title">Personal Interest</h3>
             <Resumecontent
               title=""
               content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                "Problem Solving",
+                `Playing Cricket`,
+                `Watching Movies`,
+                "Travelling"
               ]}
             />
           </Col>

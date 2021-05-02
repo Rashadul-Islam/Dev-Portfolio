@@ -13,10 +13,15 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank">
-          <i className="cil-external-link">&nbsp;</i>
-          {props.isBlog ? "View Blog" : "View Project"}
-        </Button>
+        <div className="d-flex justify-content-between">
+          <Button variant="primary" href={props.liveLink} target="_blank">
+            <i className="cil-external-link">&nbsp;</i>
+            {props.isBlog ? "View Blog" : "Live-Site"}
+          </Button><Button variant="primary" href={props.gitLink} target="_blank">
+            <i className="fab fa-github">&nbsp;</i>
+            {props.isBlog ? "View Blog" : "Github"}
+          </Button>
+        </div>
       </Card.Body>
     </Card>
   );

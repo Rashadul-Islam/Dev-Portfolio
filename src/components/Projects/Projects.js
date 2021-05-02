@@ -46,7 +46,8 @@ function Projects() {
                   </ol>
                 </div>
               }
-              link="https://github.com/soumyajit4419/Plant_AI"
+              liveLink="https://flush-master.netlify.app/"
+              gitLink="https://github.com/Rashadul-Islam/flush-master-client/"
             />
           </Col>
 
@@ -66,11 +67,12 @@ function Projects() {
                     <li>Showing products dynamically on UI.</li>
                     <li>Generating order history for individual user.</li>
                     <li>Fully responsive for all devices.</li>
-                    <br/>
+                    <br />
                   </ol>
                 </div>
               }
-              link="https://github.com/soumyajit4419/Editor.io"
+              liveLink="https://haat-bazar.netlify.app/"
+              gitLink="https://github.com/Rashadul-Islam/haat-bazar-client/"
             />
           </Col>
 
@@ -80,19 +82,21 @@ function Projects() {
               isBlog={false}
               title="Dream Sports"
               description={
-              <div id="dvLinks">
-              <h6><strong>Provides sports league details</strong></h6>
-              <p>Features:</p>
-              <ol>
-                <li>Used React, React-bootstrap, CSS, React-routing.</li>
-                <li>Used sports API for collecting and showing all the information.</li>
-                <li>For buying any product user must have to login.</li>
-                <li>User can explore each of league in details.</li>
-                <li>Fully responsive for all devices.</li>
-              </ol>
-            </div>
-          }
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+                <div id="dvLinks">
+                  <h6><strong>Provides sports league details</strong></h6>
+                  <p>Features:</p>
+                  <ol>
+                    <li>Used React, React-bootstrap, CSS, React-routing.</li>
+                    <li>Used sports API for collecting and showing all the information.</li>
+                    <li>For buying any product user must have to login.</li>
+                    <li>User can explore each of league in details.</li>
+                    <li>Fully responsive for all devices.</li>
+                    <br/><br/><br/><br/>
+                  </ol>
+                </div>
+              }
+              liveLink="https://dream-sports.netlify.app/"
+              gitLink="https://github.com/Rashadul-Islam/dream-sports/"
             />
           </Col>
 
@@ -103,18 +107,19 @@ function Projects() {
               title="Take Ride"
               description={
                 <div id="dvLinks">
-                <h6><strong>Online based riding services</strong></h6>
-                <p>Features:</p>
-                <ol>
-                  <li>Used React, React-router and Dynamic routing, google map.</li>
-                  <li>Used firebase authentication with general registration.</li>
-                  <li>For booking any ride user need to login and provide the booking information.</li>
-                  <li>Based on the booking information available ride will be shown.</li>
-                  <li>Fully responsive for all devices.</li>
-                </ol>
-              </div>
-            }
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+                  <h6><strong>Online based riding services</strong></h6>
+                  <p>Features:</p>
+                  <ol>
+                    <li>Used React, React-router and Dynamic routing, google map.</li>
+                    <li>Used firebase authentication with general registration.</li>
+                    <li>For booking any ride user need to login and provide the booking information.</li>
+                    <li>Based on the booking information available ride will be shown.</li>
+                    <li>Fully responsive for all devices.</li>
+                  </ol>
+                </div>
+              }
+              liveLink="https://take-ride.netlify.app/"
+              gitLink="https://github.com/Rashadul-Islam/take-ride/"
             />
           </Col>
 
@@ -125,18 +130,20 @@ function Projects() {
               title="Hungry Monster"
               description={
                 <div id="dvLinks">
-                <h6><strong>Provides various of food details</strong></h6>
-                <p>Features:</p>
-                <ol>
-                  <li>Used HTML, CSS, Bootstrap and Vanilla Js.</li>
-                  <li>Used Mealdb api for collecting and showing information.</li>
-                  <li>User can search any food here.</li>
-                  <li>By clicking search output user can see full details of that meal.</li>
-                  <li>Fully responsive for all devices.</li>
-                </ol>
-              </div>
-            }
-              link="https://gist.github.com/soumyajit4419/dc94177bc4954752051798f88fbce1df"
+                  <h6><strong>Provides various of food details</strong></h6>
+                  <p>Features:</p>
+                  <ol>
+                    <li>Used HTML, CSS, Bootstrap and Vanilla Js.</li>
+                    <li>Used Mealdb api for collecting and showing information.</li>
+                    <li>User can search any food here.</li>
+                    <li>By clicking search output user can see full details of that meal.</li>
+                    <li>Fully responsive for all devices.</li>
+                    <br/><br/>
+                  </ol>
+                </div>
+              }
+              liveLink="https://rashadul-islam.github.io/hungry-monster/"
+              gitLink="https://github.com/Rashadul-Islam/hungry-monster/"
             />
           </Col>
         </Row>
@@ -156,8 +163,8 @@ function Projects() {
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
+              link=""
+              title="IOT"
               site="medium.com"
             />
           </Col>
