@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import AboutImg from "../../Assets/about.png";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
@@ -34,7 +34,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={AboutImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
@@ -74,7 +74,7 @@ function About() {
           </div>
           <div className="col-md-3 mb-5 pb-3 mt-3 d-flex justify-content-center">
             <div style={{ width: 150, height: 150 }}>
-              <h4>CSS</h4>
+              <h4>JAVA</h4>
               <CircularProgressbar styles={buildStyles({ pathColor: "gold" })} value={75} text={`${80}%`} />
             </div>
           </div>
