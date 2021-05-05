@@ -11,8 +11,7 @@ import haatBazar from "../../Assets/Projects/haatbazar.JPG";
 import dreamSports from "../../Assets/Projects/dreamsports.JPG";
 import takeRide from "../../Assets/Projects/takeride.JPG";
 import hungryMonster from "../../Assets/Projects/hungrymonster.JPG";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import string from "../../Assets/Projects/string.png";
 
 function Projects() {
   return (
@@ -154,17 +153,9 @@ function Projects() {
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath={algo}
-              link=""
-              title="Cracking Interview"
-              site="gitbook.com"
-            />
-          </Col>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={plant}
-              link=""
-              title="IOT"
+              imgPath={string}
+              link="https://rashadulislam4581-87137.medium.com/things-you-need-to-know-about-string-6fa382872d76"
+              title="Things you need to know about JavaScript string"
               site="medium.com"
             />
           </Col>
