@@ -12,6 +12,7 @@ import dreamSports from "../../Assets/Projects/dreamsports.JPG";
 import takeRide from "../../Assets/Projects/takeride.JPG";
 import hungryMonster from "../../Assets/Projects/hungrymonster.JPG";
 import string from "../../Assets/Projects/string.png";
+import essentialFeatures from "../../Assets/Projects/essentialFeatures.jpg";
 
 function Projects() {
   return (
@@ -90,7 +91,7 @@ function Projects() {
                     <li>For buying any product user must have to login.</li>
                     <li>User can explore each of league in details.</li>
                     <li>Fully responsive for all devices.</li>
-                    <br/><br/><br/><br/>
+                    <br /><br /><br /><br />
                   </ol>
                 </div>
               }
@@ -137,7 +138,7 @@ function Projects() {
                     <li>User can search any food here.</li>
                     <li>By clicking search output user can see full details of that meal.</li>
                     <li>Fully responsive for all devices.</li>
-                    <br/><br/>
+                    <br /><br />
                   </ol>
                 </div>
               }
@@ -156,6 +157,14 @@ function Projects() {
               imgPath={string}
               link="https://rashadulislam4581-87137.medium.com/things-you-need-to-know-about-string-6fa382872d76"
               title="Things you need to know about JavaScript string"
+              site="medium.com"
+            />
+          </Col>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={essentialFeatures}
+              link="https://rashadulislam4581-87137.medium.com/javascript-essential-features-c79e6670fbdf"
+              title="JavaScript Essential Features"
               site="medium.com"
             />
           </Col>
