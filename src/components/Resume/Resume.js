@@ -49,7 +49,7 @@ function Resume() {
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="International University of Business Agriculture and Technology [Uttara, Dhaka] "
-              date="2017 - Present"
+              date="2017 - 2021"
               content={[`CGPA: 3.83 / 4.00`]}
             />
             <Resumecontent

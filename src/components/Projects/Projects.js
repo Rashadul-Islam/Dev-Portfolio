@@ -11,6 +11,7 @@ import haatBazar from "../../Assets/Projects/haatbazar.JPG";
 import dreamSports from "../../Assets/Projects/dreamsports.JPG";
 import takeRide from "../../Assets/Projects/takeride.JPG";
 import hungryMonster from "../../Assets/Projects/hungrymonster.JPG";
+import pharmacy from "../../Assets/Projects/pharmacy.jpg";
 import string from "../../Assets/Projects/string.png";
 import essentialFeatures from "../../Assets/Projects/essentialFeatures.jpg";
 
@@ -36,18 +37,46 @@ function Projects() {
                   <h6><strong>Online based plumber services</strong></h6>
                   <p>Features:</p>
                   <ol>
-                    <li>Used React, Bootstrap, CSS, MongoDB, Express JS, firebase authentication and private Route.</li>
-                    <li>Stripe payment method implemented.</li>
-                    <li>For booking any services user must have to login.</li>
+                    <li>User can see several of plumbing services.</li>
+                    <li>For booking any service user must have to login.</li>
                     <li>Separate dashboard for admin and user.</li>
-                    <li>Add and show data dynamically on UI.</li>
                     <li>Full control over admin.</li>
+                    <li>User can check the status of the service.</li>
                     <li>Fully responsive for all devices.</li>
+                    <li>Technology Used: React, Bootstrap, CSS, MongoDB, Express JS, stripe payment, firebase authentication
+                      and react router.</li>
                   </ol>
+                  <br /><br /><br />
                 </div>
               }
               liveLink="https://flush-master.netlify.app/"
               gitLink="https://github.com/Rashadul-Islam/flush-master-client/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pharmacy}
+              isBlog={false}
+              title="Pharmacy"
+              description={
+                <div id="dvLinks">
+                  <h6><strong>A web based medicine management service.</strong></h6>
+                  <p>Features:</p>
+                  <ol>
+                    <li>Separate dashboard for admin and seller.</li>
+                    <li>After login admin and seller can see daily total sell and total profit.</li>
+                    <li>Admin can add, edit, delete any medicine as well as any user.</li>
+                    <li>Admin can generate sells report according to date.</li>
+                    <li>Easy searching process for medicine and user.</li>
+                    <li>Seller can sell medicine and update his information.</li>
+                    <li>Fully responsive for all devices.</li>
+                    <li>Technology Used: React, Bootstrap, CSS, MongoDB, Express JS, firebase and react router.</li>
+                  </ol>
+                </div>
+              }
+              liveLink="https://newlifepharma.web.app/"
+              gitLink="https://github.com/Rashadul-Islam/pharmacy/"
             />
           </Col>
 
@@ -61,13 +90,13 @@ function Projects() {
                   <h6><strong>Online grocery shop</strong></h6>
                   <p>Features:</p>
                   <ol>
-                    <li>Used React, Bootstrap, CSS, MongoDB, Express JS, firebase authentication and private Route.</li>
                     <li>Separate dashboard for individual user.</li>
                     <li>For buying any product user must have to login.</li>
                     <li>Showing products dynamically on UI.</li>
                     <li>Generating order history for individual user.</li>
                     <li>Fully responsive for all devices.</li>
-                    <br />
+                    <li>Technology Used: React, Bootstrap, CSS, MongoDB, Express JS, firebase authentication and private Route.</li>
+                    <br /> <br /><br /><br /><br />
                   </ol>
                 </div>
               }
@@ -88,10 +117,9 @@ function Projects() {
                   <ol>
                     <li>Used React, React-bootstrap, CSS, React-routing.</li>
                     <li>Used sports API for collecting and showing all the information.</li>
-                    <li>For buying any product user must have to login.</li>
+                    <li>Home page contains banner on the top and almost 21 leagues of different sports league.</li>
                     <li>User can explore each of league in details.</li>
                     <li>Fully responsive for all devices.</li>
-                    <br /><br /><br /><br />
                   </ol>
                 </div>
               }
