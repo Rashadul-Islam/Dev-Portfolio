@@ -75,7 +75,7 @@ function Projects() {
                   </ol>
                 </div>
               }
-              liveLink="https://newlifepharma.web.app/"
+              liveLink="https://newlifepharma.netlify.app/"
               gitLink="https://github.com/Rashadul-Islam/pharmacy/"
             />
           </Col>
