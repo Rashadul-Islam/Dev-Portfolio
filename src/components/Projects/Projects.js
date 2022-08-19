@@ -7,7 +7,7 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import flushMaster from "../../Assets/Projects/flushmaster.JPG";
-import haatBazar from "../../Assets/Projects/haatbazar.JPG";
+import pizzaHaven from "../../Assets/Projects/pizza-Haven.jpg";
 import dreamSports from "../../Assets/Projects/dreamsports.JPG";
 import takeRide from "../../Assets/Projects/takeride.JPG";
 import hungryMonster from "../../Assets/Projects/hungrymonster.JPG";
@@ -29,12 +29,53 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={pizzaHaven}
+              isBlog={false}
+              title="Pizza Haven"
+              description={
+                <div id="dvLinks">
+                  <h6>
+                    <strong>Online food order application</strong>
+                  </h6>
+                  <p>Features:</p>
+                  <ol>
+                    <li>User can view pizza and order online.</li>
+                    <li>
+                      User can pay through paypal, cash and check order status.
+                    </li>
+                    <li>Admin can manage order and pizza</li>
+                    <li>
+                      Admin can change order status and check order details.
+                    </li>
+                    <li>
+                      Selling and order reports are shown in Admin dashboard.
+                    </li>
+                    <li>
+                      Technology Used: Next JS, Pure CSS, MongoDB, Mongoose,
+                      Cookies, Redux-Toolkit.{" "}
+                    </li>
+                    <br /> <br />
+                    <br />
+                    <br />
+                    <br />
+                  </ol>
+                </div>
+              }
+              liveLink="https://pizza-haven.herokuapp.com/"
+              gitLink="https://github.com/Rashadul-Islam/pizza-haven.git/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={flushMaster}
               isBlog={false}
               title="Flush Master"
               description={
                 <div id="dvLinks">
-                  <h6><strong>Online based plumber services</strong></h6>
+                  <h6>
+                    <strong>Online based plumber services</strong>
+                  </h6>
                   <p>Features:</p>
                   <ol>
                     <li>User can see several of plumbing services.</li>
@@ -43,10 +84,15 @@ function Projects() {
                     <li>Full control over admin.</li>
                     <li>User can check the status of the service.</li>
                     <li>Fully responsive for all devices.</li>
-                    <li>Technology Used: React, Bootstrap, CSS, MongoDB, Express JS, stripe payment, firebase authentication
-                      and react router.</li>
+                    <li>
+                      Technology Used: React, Bootstrap, CSS, MongoDB, Express
+                      JS, stripe payment, firebase authentication and react
+                      router.
+                    </li>
                   </ol>
-                  <br /><br /><br />
+                  <br />
+                  <br />
+                  <br />
                 </div>
               }
               liveLink="https://flush-master.netlify.app/"
@@ -61,17 +107,30 @@ function Projects() {
               title="Pharmacy"
               description={
                 <div id="dvLinks">
-                  <h6><strong>A web based medicine management service.</strong></h6>
+                  <h6>
+                    <strong>A web based medicine management service.</strong>
+                  </h6>
                   <p>Features:</p>
                   <ol>
                     <li>Separate dashboard for admin and seller.</li>
-                    <li>After login admin and seller can see daily total sell and total profit.</li>
-                    <li>Admin can add, edit, delete any medicine as well as any user.</li>
+                    <li>
+                      After login admin and seller can see daily total sell and
+                      total profit.
+                    </li>
+                    <li>
+                      Admin can add, edit, delete any medicine as well as any
+                      user.
+                    </li>
                     <li>Admin can generate sells report according to date.</li>
                     <li>Easy searching process for medicine and user.</li>
-                    <li>Seller can sell medicine and update his information.</li>
+                    <li>
+                      Seller can sell medicine and update his information.
+                    </li>
                     <li>Fully responsive for all devices.</li>
-                    <li>Technology Used: React, Bootstrap, CSS, MongoDB, Express JS, firebase and react router.</li>
+                    <li>
+                      Technology Used: React, Bootstrap, CSS, MongoDB, Express
+                      JS, firebase and react router.
+                    </li>
                   </ol>
                 </div>
               }
@@ -82,42 +141,25 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={haatBazar}
-              isBlog={false}
-              title="Haat Bazar"
-              description={
-                <div id="dvLinks">
-                  <h6><strong>Online grocery shop</strong></h6>
-                  <p>Features:</p>
-                  <ol>
-                    <li>Separate dashboard for individual user.</li>
-                    <li>For buying any product user must have to login.</li>
-                    <li>Showing products dynamically on UI.</li>
-                    <li>Generating order history for individual user.</li>
-                    <li>Fully responsive for all devices.</li>
-                    <li>Technology Used: React, Bootstrap, CSS, MongoDB, Express JS, firebase authentication and private Route.</li>
-                    <br /> <br /><br /><br /><br />
-                  </ol>
-                </div>
-              }
-              liveLink="https://haat-bazar.netlify.app/"
-              gitLink="https://github.com/Rashadul-Islam/haat-bazar-client/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={dreamSports}
               isBlog={false}
               title="Dream Sports"
               description={
                 <div id="dvLinks">
-                  <h6><strong>Provides sports league details</strong></h6>
+                  <h6>
+                    <strong>Provides sports league details</strong>
+                  </h6>
                   <p>Features:</p>
                   <ol>
                     <li>Used React, React-bootstrap, CSS, React-routing.</li>
-                    <li>Used sports API for collecting and showing all the information.</li>
-                    <li>Home page contains banner on the top and almost 21 leagues of different sports league.</li>
+                    <li>
+                      Used sports API for collecting and showing all the
+                      information.
+                    </li>
+                    <li>
+                      Home page contains banner on the top and almost 21 leagues
+                      of different sports league.
+                    </li>
                     <li>User can explore each of league in details.</li>
                     <li>Fully responsive for all devices.</li>
                   </ol>
@@ -135,13 +177,25 @@ function Projects() {
               title="Take Ride"
               description={
                 <div id="dvLinks">
-                  <h6><strong>Online based riding services</strong></h6>
+                  <h6>
+                    <strong>Online based riding services</strong>
+                  </h6>
                   <p>Features:</p>
                   <ol>
-                    <li>Used React, React-router and Dynamic routing, google map.</li>
-                    <li>Used firebase authentication with general registration.</li>
-                    <li>For booking any ride user need to login and provide the booking information.</li>
-                    <li>Based on the booking information available ride will be shown.</li>
+                    <li>
+                      Used React, React-router and Dynamic routing, google map.
+                    </li>
+                    <li>
+                      Used firebase authentication with general registration.
+                    </li>
+                    <li>
+                      For booking any ride user need to login and provide the
+                      booking information.
+                    </li>
+                    <li>
+                      Based on the booking information available ride will be
+                      shown.
+                    </li>
                     <li>Fully responsive for all devices.</li>
                   </ol>
                 </div>
@@ -158,15 +212,23 @@ function Projects() {
               title="Hungry Monster"
               description={
                 <div id="dvLinks">
-                  <h6><strong>Provides various of food details</strong></h6>
+                  <h6>
+                    <strong>Provides various of food details</strong>
+                  </h6>
                   <p>Features:</p>
                   <ol>
                     <li>Used HTML, CSS, Bootstrap and Vanilla Js.</li>
-                    <li>Used Mealdb api for collecting and showing information.</li>
+                    <li>
+                      Used Mealdb api for collecting and showing information.
+                    </li>
                     <li>User can search any food here.</li>
-                    <li>By clicking search output user can see full details of that meal.</li>
+                    <li>
+                      By clicking search output user can see full details of
+                      that meal.
+                    </li>
                     <li>Fully responsive for all devices.</li>
-                    <br /><br />
+                    <br />
+                    <br />
                   </ol>
                 </div>
               }

@@ -25,21 +25,21 @@ function Resume() {
               date="I have following skills"
               content={[
                 "Expertise: HTML5, CSS3, Bootstrap, JavaScript, ES6, React JS, React Router, Material UI.",
-                "Comfortable: Node JS (Express), MongoDB, Firebase.",
+                "Comfortable: Node JS (Express), Next js, MongoDB, Mongoose, DigitalOcean, Firebase.",
                 "Intermediate: C, C++, C#, JAVA.",
                 "Familiar: Redux, SASS, React- Native, Typescript.",
                 "Tools: VsCode, NetBeans, Code Blocks, Netlify, GitHub, Heroku, Chrome dev-tool."
               ]}
             />
-            <h3 className="resume-title">Professional Training</h3>
+            <h3 className="resume-title">Expericence</h3>
             <Resumecontent
-              title="Complete web development with Jhankar Mahbub [January 2021-present]"
+              title="Software Engineer at Najj Technologies Limited [ May 2021 - Present ]"
               content={[
-                "Learning core concept of web application and modern javascript framework.",
+                "Working with MERN Stack Technology",
               ]}
             />
             <Resumecontent
-              title="Industrial Training at Mistri Solutions [January 2021-present]"
+              title="Internship at Mistri Solutions [ January 2021- April 2021 ]"
               content={[
                 "Learning how the application is build, maintenance, deploy and handover to client professionally.",
               ]}

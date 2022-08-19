@@ -11,29 +11,38 @@ import pdf from "../../Assets/rashadul_islam.pdf";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid id="home">
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+            <Col md={6} className="home-header">
+              <h3 style={{ paddingBottom: 15 }} className="heading">
                 Hi There! <span className="wave">👋🏻</span>
-              </h1>
+              </h3>
 
-              <h1 className="heading-name">
+              <h3 className="heading-name">
                 I'M
                 <strong className="main-name"> Rashadul Islam</strong>
-              </h1>
+              </h3>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-                <Button className="mt-5" variant="primary"  href={pdf} target="_blank">
+                <Button
+                  className="mt-5"
+                  variant="primary"
+                  href={pdf}
+                  target="_blank"
+                >
                   <i className="fas fa-download">&nbsp;</i>Download Resume
                 </Button>
               </div>
             </Col>
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src={homeLogo} alt="home pic" className="img-fluid" />
+            <Col md={6}>
+              <img
+                src={homeLogo}
+                alt="home pic"
+                className="img-fluid"
+              />
             </Col>
           </Row>
         </Container>
