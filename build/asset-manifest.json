@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef8e5d66.chunk.css",
+    "main.js": "/static/js/main.117e3fdf.chunk.js",
+    "main.js.map": "/static/js/main.117e3fdf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fafff162.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fafff162.js.map",
+    "static/css/2.684ef8ff.chunk.css": "/static/css/2.684ef8ff.chunk.css",
+    "static/js/2.d356bbfb.chunk.js": "/static/js/2.d356bbfb.chunk.js",
+    "static/js/2.d356bbfb.chunk.js.map": "/static/js/2.d356bbfb.chunk.js.map",
+    "static/js/3.c388d6a9.chunk.js": "/static/js/3.c388d6a9.chunk.js",
+    "static/js/3.c388d6a9.chunk.js.map": "/static/js/3.c388d6a9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.684ef8ff.chunk.css.map": "/static/css/2.684ef8ff.chunk.css.map",
+    "static/css/main.ef8e5d66.chunk.css.map": "/static/css/main.ef8e5d66.chunk.css.map",
+    "static/js/2.d356bbfb.chunk.js.LICENSE.txt": "/static/js/2.d356bbfb.chunk.js.LICENSE.txt",
+    "static/media/about.337981de.png": "/static/media/about.337981de.png",
+    "static/media/dreamsports.4b485a38.JPG": "/static/media/dreamsports.4b485a38.JPG",
+    "static/media/essentialFeatures.57f8d227.jpg": "/static/media/essentialFeatures.57f8d227.jpg",
+    "static/media/flushmaster.113b46c5.JPG": "/static/media/flushmaster.113b46c5.JPG",
+    "static/media/hungrymonster.ec0cbe1c.JPG": "/static/media/hungrymonster.ec0cbe1c.JPG",
+    "static/media/introduce.3c5ffad5.png": "/static/media/introduce.3c5ffad5.png",
+    "static/media/logo.b6b7a53a.png": "/static/media/logo.b6b7a53a.png",
+    "static/media/pharmacy.4747eafa.jpg": "/static/media/pharmacy.4747eafa.jpg",
+    "static/media/pizza-Haven.3e3c98ab.jpg": "/static/media/pizza-Haven.3e3c98ab.jpg",
+    "static/media/style.css": "/static/media/pre.4410c5ba.svg",
+    "static/media/rashadul_islam.90e99985.pdf": "/static/media/rashadul_islam.90e99985.pdf",
+    "static/media/rashed.bdb41fe1.png": "/static/media/rashed.bdb41fe1.png",
+    "static/media/string.a2fe13c1.png": "/static/media/string.a2fe13c1.png",
+    "static/media/takeride.7d914188.JPG": "/static/media/takeride.7d914188.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fafff162.js",
+    "static/css/2.684ef8ff.chunk.css",
+    "static/js/2.d356bbfb.chunk.js",
+    "static/css/main.ef8e5d66.chunk.css",
+    "static/js/main.117e3fdf.chunk.js"
+  ]
+}
